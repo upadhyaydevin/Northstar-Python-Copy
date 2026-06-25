@@ -800,9 +800,9 @@ def run_northstar_pipeline(
         f"The best possible fit angle delta (in radians) was: {best_fit_data[0]:.6f}",
         f"The single best fit algorithm angle delta (in radians) was: {best_fit_data[1]:.6f}",
         f"The weighted best fit algorithm angle delta (in radians) was: {best_fit_data[2]:.6f}",
-        f"The full process run time (in seconds) was: {total_runtime:.4f}",
-        f"The single best fit algorithm run time (in seconds) was: {best_fit_data[3]:.4f}",
-        f"The weighted best fit algorithm run time (in seconds) was: {best_fit_data[4]:.4f}"
+        f"The full process run time (in seconds) was: {total_runtime:.6f}",
+        f"The single best fit algorithm run time (in seconds) was: {best_fit_data[3]:.6f}",
+        f"The weighted best fit algorithm run time (in seconds) was: {best_fit_data[4]:.6f}"
     ]
 
     # Print to terminal
