@@ -678,12 +678,12 @@ def generate_real_detector_responses(signal_frequency, signal_lifetime, detector
     real_detector_response_array = np.broadcast_to(
         small_response[None, None, :, :],
         (number_angular_samples, number_amplitude_combinations, number_time_samples, NUMBER_DETECTORS)
-    ).copy()
+    )
 
     real_angles_array = np.broadcast_to(
         real_angles[None, :],
         (number_angular_samples, NUMBER_SOURCE_ANGLES)
-    ).copy()
+    )
 
     return real_detector_response_array, real_angles_array
 
